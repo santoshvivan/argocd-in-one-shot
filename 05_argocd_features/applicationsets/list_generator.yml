@@ -26,7 +26,7 @@ spec:
         targetRevision: main
         path: '{{path}}'                # resolved from element
       destination:
-        server: https://kubernetes.default.svc
+        server: https://10.10.14.35:33893
         namespace: default
       syncPolicy:
         automated:
